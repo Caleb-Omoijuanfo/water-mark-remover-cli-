@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project runtime
+/tmp/
+models/*.pt
+models/*.pth
+models/*.onnx
+!models/.gitkeep
+
+# Job temp / outputs
+*.mp4
+*.avi
+*.mov
+*.mkv
+!tests/fixtures/**
+*.png
+*.jpg
+*.jpeg
+!tests/fixtures/**
